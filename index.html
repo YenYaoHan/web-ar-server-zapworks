@@ -135,11 +135,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/Build.loader.js";
+        const loaderUrl = buildUrl + "/web-ar-server-zapworks.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Build.data",
-            frameworkUrl: buildUrl + "/Build.framework.js",
-            codeUrl: buildUrl + "/Build.wasm",
+            dataUrl: buildUrl + "/web-ar-server-zapworks.data",
+            frameworkUrl: buildUrl + "/web-ar-server-zapworks.framework.js",
+            codeUrl: buildUrl + "/web-ar-server-zapworks.wasm",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "delta-it-service-center",
             productName: "zapworks",
